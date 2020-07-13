@@ -20,7 +20,7 @@ And derived from the decimal keyboard example provided [by Rob as seen here](htt
 
 **Technical Info:** \
 Xcode12  project written in Swift 5 for iOS\
-Custom delegate, Inputview, Protocol for removing keyboard\
+Inputview, UIKeyInput protocol, Custom delegate/protocol for removing keyboard\
 System colors for dark/light modes\
 AppIcon set generated using [Make Icons Swiftly](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
 

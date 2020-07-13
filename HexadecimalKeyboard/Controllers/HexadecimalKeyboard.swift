@@ -106,6 +106,7 @@ private extension HexadecimalKeyboard {
         let panel2         = createStackView(axis: .vertical)
         let panel2Group    = createStackView(axis: .vertical)
         let panel2Controls = createStackView(axis: .horizontal, distribution : .fillProportionally)
+ 
         
         //MARK: - Create multiple stackviews for numbers
         for row in 0 ..< 3 {
@@ -136,15 +137,15 @@ private extension HexadecimalKeyboard {
         panel2Controls.addArrangedSubview(deleteButton)
         panel2Controls.addArrangedSubview(okButton)
         
-        //MARK: - Constraint - sets deleteButton width to same width as hex buttons
+        //MARK: - Constraint - sets okButton width to two times the width of the deleteButton plus 10 points for the space
         panel2Controls.addConstraint(NSLayoutConstraint(
                                         item       : okButton,
                                         attribute  : .width,
                                         relatedBy  : .equal,
                                         toItem     : deleteButton,
                                         attribute  : .width,
-                                        multiplier : 2.2,
-                                        constant   : 0))
+                                        multiplier : 2,
+                                        constant   : 10))
     }
     
     func createStackView(axis: NSLayoutConstraint.Axis, distribution: UIStackView.Distribution = .fillEqually) -> UIStackView {
