@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93BE547424BBDE1A00A4F5C9 /* HexKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = 93BE547324BBDE1A00A4F5C9 /* HexKeyboard.gif */; };
+		93BE547624BBDE2E00A4F5C9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 93BE547524BBDE2E00A4F5C9 /* LICENSE */; };
+		93BE547A24BBDE5400A4F5C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 93BE547924BBDE5400A4F5C9 /* README.md */; };
+		93BE548024BBE09600A4F5C9 /* HexDarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BE547F24BBE09600A4F5C9 /* HexDarkMode.png */; };
+		93BE548224BBE09E00A4F5C9 /* HexLightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BE548124BBE09E00A4F5C9 /* HexLightMode.png */; };
 		93C5E07D24B97F0500A9D8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5E07C24B97F0500A9D8D9 /* AppDelegate.swift */; };
 		93C5E07F24B97F0500A9D8D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5E07E24B97F0500A9D8D9 /* SceneDelegate.swift */; };
 		93C5E08124B97F0500A9D8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C5E08024B97F0500A9D8D9 /* ViewController.swift */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93BE547324BBDE1A00A4F5C9 /* HexKeyboard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HexKeyboard.gif; sourceTree = "<group>"; };
+		93BE547524BBDE2E00A4F5C9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93BE547924BBDE5400A4F5C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93BE547F24BBE09600A4F5C9 /* HexDarkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HexDarkMode.png; sourceTree = "<group>"; };
+		93BE548124BBE09E00A4F5C9 /* HexLightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HexLightMode.png; sourceTree = "<group>"; };
 		93C5E07924B97F0500A9D8D9 /* HexadecimalKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexadecimalKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C5E07C24B97F0500A9D8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C5E07E24B97F0500A9D8D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,9 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93BE547224BBDDEE00A4F5C9 /* GitHub-Images */ = {
+			isa = PBXGroup;
+			children = (
+				93BE547F24BBE09600A4F5C9 /* HexDarkMode.png */,
+				93BE548124BBE09E00A4F5C9 /* HexLightMode.png */,
+				93BE547324BBDE1A00A4F5C9 /* HexKeyboard.gif */,
+			);
+			path = "GitHub-Images";
+			sourceTree = "<group>";
+		};
 		93C5E07024B97F0500A9D8D9 = {
 			isa = PBXGroup;
 			children = (
+				93BE547924BBDE5400A4F5C9 /* README.md */,
+				93BE547524BBDE2E00A4F5C9 /* LICENSE */,
+				93BE547224BBDDEE00A4F5C9 /* GitHub-Images */,
 				93C5E07B24B97F0500A9D8D9 /* HexadecimalKeyboard */,
 				93C5E07A24B97F0500A9D8D9 /* Products */,
 			);
@@ -170,9 +193,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BE547A24BBDE5400A4F5C9 /* README.md in Resources */,
 				93C5E08924B97F0600A9D8D9 /* LaunchScreen.storyboard in Resources */,
+				93BE547424BBDE1A00A4F5C9 /* HexKeyboard.gif in Resources */,
 				93C5E08624B97F0600A9D8D9 /* Assets.xcassets in Resources */,
 				93C5E08424B97F0500A9D8D9 /* Main.storyboard in Resources */,
+				93BE548224BBE09E00A4F5C9 /* HexLightMode.png in Resources */,
+				93BE548024BBE09600A4F5C9 /* HexDarkMode.png in Resources */,
+				93BE547624BBDE2E00A4F5C9 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
