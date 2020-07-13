@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93C5E07924B97F0500A9D8D9 /* KeyboardCustomAppOnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardCustomAppOnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C5E07924B97F0500A9D8D9 /* HexadecimalKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexadecimalKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C5E07C24B97F0500A9D8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C5E07E24B97F0500A9D8D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		93C5E08024B97F0500A9D8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		93C5E07024B97F0500A9D8D9 = {
 			isa = PBXGroup;
 			children = (
-				93C5E07B24B97F0500A9D8D9 /* KeyboardCustomAppOnly */,
+				93C5E07B24B97F0500A9D8D9 /* HexadecimalKeyboard */,
 				93C5E07A24B97F0500A9D8D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		93C5E07A24B97F0500A9D8D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93C5E07924B97F0500A9D8D9 /* KeyboardCustomAppOnly.app */,
+				93C5E07924B97F0500A9D8D9 /* HexadecimalKeyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93C5E07B24B97F0500A9D8D9 /* KeyboardCustomAppOnly */ = {
+		93C5E07B24B97F0500A9D8D9 /* HexadecimalKeyboard */ = {
 			isa = PBXGroup;
 			children = (
 				93C5E09224BA6A0700A9D8D9 /* Root */,
@@ -66,7 +66,7 @@
 				93C5E09524BA6A4700A9D8D9 /* Assets */,
 				93C5E09424BA6A4000A9D8D9 /* Storyboards */,
 			);
-			path = KeyboardCustomAppOnly;
+			path = HexadecimalKeyboard;
 			sourceTree = "<group>";
 		};
 		93C5E09224BA6A0700A9D8D9 /* Root */ = {
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93C5E07824B97F0500A9D8D9 /* KeyboardCustomAppOnly */ = {
+		93C5E07824B97F0500A9D8D9 /* HexadecimalKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93C5E08D24B97F0600A9D8D9 /* Build configuration list for PBXNativeTarget "KeyboardCustomAppOnly" */;
+			buildConfigurationList = 93C5E08D24B97F0600A9D8D9 /* Build configuration list for PBXNativeTarget "HexadecimalKeyboard" */;
 			buildPhases = (
 				93C5E07524B97F0500A9D8D9 /* Sources */,
 				93C5E07624B97F0500A9D8D9 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = KeyboardCustomAppOnly;
+			name = HexadecimalKeyboard;
 			productName = KeyboardCustomAppOnly;
-			productReference = 93C5E07924B97F0500A9D8D9 /* KeyboardCustomAppOnly.app */;
+			productReference = 93C5E07924B97F0500A9D8D9 /* HexadecimalKeyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93C5E07424B97F0500A9D8D9 /* Build configuration list for PBXProject "KeyboardCustomAppOnly" */;
+			buildConfigurationList = 93C5E07424B97F0500A9D8D9 /* Build configuration list for PBXProject "HexadecimalKeyboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93C5E07824B97F0500A9D8D9 /* KeyboardCustomAppOnly */,
+				93C5E07824B97F0500A9D8D9 /* HexadecimalKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -336,12 +336,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T97DA5EFXT;
-				INFOPLIST_FILE = KeyboardCustomAppOnly/Root/Info.plist;
+				INFOPLIST_FILE = HexadecimalKeyboard/Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mv.KeyboardCustomAppOnly;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mv.HexadecimalKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,12 +355,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T97DA5EFXT;
-				INFOPLIST_FILE = KeyboardCustomAppOnly/Root/Info.plist;
+				INFOPLIST_FILE = HexadecimalKeyboard/Root/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mv.KeyboardCustomAppOnly;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mv.HexadecimalKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93C5E07424B97F0500A9D8D9 /* Build configuration list for PBXProject "KeyboardCustomAppOnly" */ = {
+		93C5E07424B97F0500A9D8D9 /* Build configuration list for PBXProject "HexadecimalKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93C5E08B24B97F0600A9D8D9 /* Debug */,
@@ -379,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93C5E08D24B97F0600A9D8D9 /* Build configuration list for PBXNativeTarget "KeyboardCustomAppOnly" */ = {
+		93C5E08D24B97F0600A9D8D9 /* Build configuration list for PBXNativeTarget "HexadecimalKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93C5E08E24B97F0600A9D8D9 /* Debug */,
