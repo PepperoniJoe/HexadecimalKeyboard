@@ -20,7 +20,7 @@ Hexadecimal Layout (Dark and LIght modes)
 Xcode12  project written in Swift 5 for iOS
 Custom delegate, Inputview, Protocol for removing keyboard
 System colors for dark/light modes
-
+AppIcon set generated using [Make Icons Swiftly](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
