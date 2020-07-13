@@ -22,7 +22,10 @@ And derived from the decimal keyboard example provided [by Rob as seen here](htt
 Xcode12  project written in Swift 5 for iOS\
 Inputview, UIKeyInput protocol, Custom delegate/protocol for removing keyboard\
 System colors for dark/light modes\
-AppIcon set generated using [Make Icons Swiftly](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
+
+**See Also:** \
+ [Quickies - an assortment of iOS apps](https://github.com/PepperoniJoe/Quickies)\
+ [Make Icons Swiftly - used to generate app icon sets for this app](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
