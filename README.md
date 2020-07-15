@@ -24,8 +24,10 @@ Inputview, UIKeyInput protocol, Custom delegate/protocol for removing keyboard\
 System colors for dark/light modes
 
 **See Also:** \
- [Make Icons Swiftly - used to generate app icon sets for this app](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
-
+[Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\
+ [Make Icons Swiftly - used to generate app icon sets
+ ](https://github.com/PepperoniJoe/Make-Icons-Swiftly)
+ 
 **Author:** \
 Marcy Vernon [@MarcyVernon](https://twitter.com/MarcyVernon)
 
