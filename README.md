@@ -11,7 +11,7 @@ And derived from the decimal keyboard example provided [by Rob as seen here](htt
 
 <img src="GitHub-Images/HexKeyboard.gif" width="300">
 
-**Hexadecimal Layout**(Dark and LIght modes)\
+**Hexadecimal Layout**(Dark and Light modes)\
 <img src="GitHub-Images/HexDarkMode.png" width="300">\
 <img src="GitHub-Images/HexLightMode.png" width="300">
 
