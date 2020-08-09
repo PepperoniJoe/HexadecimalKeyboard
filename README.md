@@ -8,6 +8,7 @@ A native iOS app creating a custom hexadecimal keyboard.
 **Inspiration**
 Based on the design provided [by David Mulder as seen here](https://ux.stackexchange.com/a/58605/128044)\
 And derived from the decimal keyboard example provided [by Rob as seen here](https://stackoverflow.com/a/57275689/1816667)
+Button styling inspired by Apple's standard keyboard.
 
 <img src="GitHub-Images/HexKeyboard.gif" width="300">
 
