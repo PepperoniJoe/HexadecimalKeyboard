@@ -21,7 +21,7 @@ Button styling inspired by Apple's standard keyboard.
 
 **Technical Info:** \
 Xcode12  project written in Swift 5 for iOS\
-Inputview, UIKeyInput protocol, Custom delegate/protocol for removing keyboard\
+Inputview, UIKeyInput, Textfield custom keyboard\
 System colors for dark/light modes
 
 **See Also:** \
