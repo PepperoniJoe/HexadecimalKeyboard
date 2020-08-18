@@ -6,6 +6,7 @@
 A native iOS app creating a custom hexadecimal keyboard.
 
 **Inspiration**\
+See same project using a Xib file at the GitHub repository [Hexadecimal Keyboard (using Xib file)] (https://github.com/PepperoniJoe/HexadecimalKeyboard-Xib)
 Based on the design provided [by David Mulder as seen here](https://ux.stackexchange.com/a/58605/128044)\
 And derived from the decimal keyboard code example provided [by Rob as seen here](https://stackoverflow.com/a/57275689/1816667)\
 Button styling inspired by Apple's standard keyboard.
