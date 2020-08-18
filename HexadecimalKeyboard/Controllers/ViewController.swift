@@ -20,23 +20,13 @@ class ViewController: UIViewController {
     func createKeyboard(_ textField: UITextField) {
         textField.backgroundColor = .systemGroupedBackground
         textField.clearButtonMode = .whileEditing
-        
-        let hexadecimalKeyboard      = HexadecimalKeyboard(target: textField)
-        textField.inputView          = hexadecimalKeyboard
-        hexadecimalKeyboard.delegate = self
+        textField.inputView = HexadecimalKeyboard(target: textField)
     }
     
     
     @IBAction func clickTextField(_ sender: UITextField) {
         sender.reloadInputViews()
-        createKeyboard(sender)
     }
+    
 } // end of View Controller
-
-
-extension ViewController: RemoveKeyboardDelegate {
-    func removeKeyboard() {
-        _ = hexField.map { $0.inputView?.removeFromSuperview() }
-    }
-}
     

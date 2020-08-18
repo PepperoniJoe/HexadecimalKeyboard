@@ -6,17 +6,13 @@
 //
 import UIKit
 
-protocol RemoveKeyboardDelegate: class {
-    func removeKeyboard()
-}
-
 class HexButton: UIButton {
     var hexCharacter: String = ""
 }
 
 class HexadecimalKeyboard: UIView {
-    weak var target   : UIKeyInput?
-    weak var delegate : RemoveKeyboardDelegate?
+    weak var target   : (UIKeyInput & UIResponder)?
+//    weak var delegate : RemoveKeyboardDelegate?
     
     var hexadecimalButtons: [HexButton] = ["0","7","8","9","4","5","6","1","2","3","A","B","C","D","E","F"].map {
         let button = HexButton(type: .system)
@@ -58,7 +54,7 @@ class HexadecimalKeyboard: UIView {
         return stackView
     }()
     
-    init(target: UIKeyInput) {
+    init(target: (UIKeyInput & UIResponder)) {
         self.target = target
         super.init(frame: .zero)
         configure()
@@ -82,7 +78,7 @@ extension HexadecimalKeyboard {
     }
     
     @objc func didTapOKButton(_ sender: HexButton) {
-        delegate?.removeKeyboard()
+        target?.resignFirstResponder()
     }
 }
 
